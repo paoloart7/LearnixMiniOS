@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# Binaires et builds
+bin/
+build/
+*.bin
+*.o
+*.elf
+*.img
+*.iso
+
+# QEMU
+qemu_log.txt
+
+# Backup et temporaires
+*~
+*.bak
+*.tmp
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers personnels
+notes.txt
+debug_log.txt
+EOF
